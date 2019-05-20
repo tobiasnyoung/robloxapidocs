@@ -29,19 +29,19 @@ Parameters
 
 Output
 ~~~~~~~
-- Dict
-  - username (string)
-  - id (number)
-  - avatar_url (string)
-  - blurb (string)
-  - bc (dict):
+* Dict
+  * username (string)
+  * id (number)
+  * avatar_url (string)
+  * blurb (string)
+  * bc (dict):
     - type (string)
     - image_url (string)
-  - count (dict):
+  * count (dict):
     - FollowersCount (number)
     - FollowingsCount (number)
     - FriendsCount (number)
-  - badges (number)
+  * badges (number)
 
 Example
 ~~~~~~~~
