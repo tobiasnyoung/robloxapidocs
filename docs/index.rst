@@ -1,7 +1,6 @@
 .. toctree::
    :maxdepth: 2
    
-   index
    User
 ==========================
  Roblox API Documentation
