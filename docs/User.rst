@@ -1,13 +1,12 @@
 =====
 User
 =====
-
-Block user
+block_user
 ===========
 
 Parameters
 ~~~~~~~~~~~
-- User ID
+- ID
 
 Output
 ~~~~~~~
@@ -19,14 +18,14 @@ Example
 
    import robloxapi;
    rbx = robloxapi.client('Cookie');
-   result = rbx.User.block_user("User ID")
+   result = rbx.User.block_user(id);
 
-Get profile
+getProfile
 ============
 
 Parameters
 ~~~~~~~~~~~
-- User ID
+- ID
 
 Output
 ~~~~~~~
@@ -48,8 +47,89 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxapi
-   rbx = robloxapi.client('Cookie')
-   profile = rbx.User.getProfile("User ID")
+   import robloxapi;
+   rbx = robloxapi.client('Cookie');
+   profile = rbx.User.getProfile(id);
 
+IdByUsername
+=============
 
+Parameters
+~~~~~~~~~~~
+- Username
+
+Output
+~~~~~~~
+- Dict:
+  - ID
+
+Example
+~~~~~~~~
+
+.. code_block:: python
+
+   import robloxapi;
+   rbx = robloxapi.client('Cookie');
+   id = robloxapi.User.IDByUsername(username);
+
+send_message
+=============
+
+Parameters
+~~~~~~~~~~~
+- reciever_id
+- subject
+- body
+
+Output
+~~~~~~~
+- Dict (failed or sent)
+
+Example
+~~~~~~~~
+
+.. code-block:: python
+
+   import robloxapi;
+   rbx = robloxapi.client('Cookie');
+   result = rbx.User.send_message(reciever_id, subject, body);
+   
+unblock_user
+=============
+
+Parameters
+~~~~~~~~~~~
+- ID
+
+Output
+~~~~~~~
+- True/False
+
+Example
+~~~~~~~~
+
+.. code-block:: python
+
+   import robloxapi;
+   rbx = robloxapi.client('Cookie');
+   result = rbx.User.unblock_user(id);
+
+UsernameById
+=============
+
+Parameters
+~~~~~~~~~~~
+- ID
+
+Output
+~~~~~~~
+- Username
+
+Example
+~~~~~~~~
+
+.. code-block:: python
+
+   import robloxapi;
+   rbx = robloxapi.client('Cookie');
+   username = robloxapi.User.UsernameById(id)
