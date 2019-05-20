@@ -1,4 +1,7 @@
-
+.. toctree::
+   :maxdepth: 2
+   
+   User
 ==========================
  Roblox API Documentation
 ==========================
