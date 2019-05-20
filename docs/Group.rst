@@ -11,18 +11,19 @@ Parameters
 
 Output
 ~~~~~~~
-- id
-- name
-- description
-- owner
-   - userId
-   - username
-   - buildersClubMembershipType
-- shout
-- memberCount
-- isBuildersClubOnly
-- hasClan (always return false)
-- publicEntryAllowed
+- Dict
+   - id
+   - name
+   - description
+   - owner
+      - userId
+      - username
+      - buildersClubMembershipType
+   - shout
+   - memberCount
+   - isBuildersClubOnly
+   - hasClan (always return false)
+   - publicEntryAllowed
 
 Example
 ~~~~~~~~
