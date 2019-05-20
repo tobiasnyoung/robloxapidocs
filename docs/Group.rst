@@ -33,4 +33,8 @@ Example
    rbx = robloxlib.client('Cookie')
    rbx.Group.getGroup(id)
    
-   
+getGroupRoles
+==============
+
+Parameters
+~~~~~~~~~~~
