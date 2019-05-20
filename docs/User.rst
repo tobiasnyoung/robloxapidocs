@@ -29,7 +29,7 @@ Parameters
 
 Output
 ~~~~~~~
-- Dict:
+- Dict
   - username (string)
   - id (number)
   - avatar_url (string)
@@ -60,7 +60,7 @@ Parameters
 
 Output
 ~~~~~~~
-- Dict:
+- Dict
   - ID
 
 Example
