@@ -2,6 +2,29 @@
 Group
 ======
 
+demote
+=======
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+- User ID
+
+Output
+~~~~~~~
+- ranked
+- reason
+- oldRole
+- newRole
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.demote('groupid','id')
+
 getGroup
 =========
 
@@ -58,4 +81,38 @@ Example
    rbx = robloxapi.client('Cookie')
    rbx.Group.getGroupRoles(id)
    
- 
+getWall
+========
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+
+Output
+~~~~~~~
+- Dict
+   - previousPageCursor
+   - nextPageCursor
+   - data
+      - id
+      - poster
+         - user
+            - userId
+            - username
+            - buildersClubMembershipType
+         - role
+            - id
+            - name
+            - rank
+            - memberCount
+      - body
+      - created
+      - updated
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.getWall(id)
