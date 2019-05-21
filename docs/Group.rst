@@ -116,3 +116,39 @@ Example
    import robloxlib;
    rbx = robloxlib.client('Cookie')
    rbx.Group.getWall(id)
+
+groupPayout
+============
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+- User ID
+- Amount
+
+Output
+~~~~~~~
+- True/False
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.groupPayout('groupid','id','amount')
+   
+groupSearch
+============
+
+Parameters
+~~~~~~~~~~~
+- Name
+- Max Rows
+
+Output
+~~~~~~~
+- Keyword
+- StartRow
+- MaxRows
+- f
