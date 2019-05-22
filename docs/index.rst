@@ -7,5 +7,6 @@ Current documentation for Roblox API. Need any further assistance join our serve
 .. toctree::
    :maxdepth: 2
    
+   Asset
    Group
    User
