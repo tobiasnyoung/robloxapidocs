@@ -157,4 +157,4 @@ Example
 
    import robloxlib;
    rbx = robloxlib.client('Cookie')
-   robloxlib.Group.groupSearch('keyword', 'maxrows')
+   rbx.Group.groupSearch('keyword', 'maxrows')
