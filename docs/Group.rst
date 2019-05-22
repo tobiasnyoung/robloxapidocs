@@ -158,3 +158,73 @@ Example
    import robloxlib;
    rbx = robloxlib.client('Cookie')
    rbx.Group.groupSearch('keyword', 'maxrows')
+
+postShout
+==========
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+- Message
+
+Output
+~~~~~~
+- body
+- poster
+   - userId
+   - username
+   - buildersClubMembershipType
+- created
+- updated
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.postShout(id, 'blah blah blah')
+
+promote
+========
+
+Parameters
+~~~~~~~~~~
+- Group ID
+- User ID
+
+Output
+~~~~~~
+- ranked
+- reason
+- oldRole
+- newRole
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.promote('groupid', 'userid')
+   
+setRank
+========
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+- Role ID
+- User ID
+
+Output
+~~~~~~~
+- success
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.setRank('groupid', 'roleid', 'userid')
