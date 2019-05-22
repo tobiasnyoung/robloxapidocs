@@ -137,6 +137,7 @@ Output
 Example
 ~~~~~~~~
 .. code-block:: python
+
    import robloxlib;
    rbx = robloxlib.client('Cookie')
    rbx.Asset.wearOutfit(id)
