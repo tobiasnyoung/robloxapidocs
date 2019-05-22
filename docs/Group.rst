@@ -149,6 +149,12 @@ Parameters
 Output
 ~~~~~~~
 - Keyword
-- StartRow
 - MaxRows
-- f
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   robloxlib.Group.groupSearch('keyword', 'maxrows')
