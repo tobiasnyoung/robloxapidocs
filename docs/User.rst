@@ -41,7 +41,7 @@ Output
       * FollowersCount (number)
       * FollowingsCount (number)
       * FriendsCount (number)
-   * badges (number)
+   * badges (string)
 
 Example
 ~~~~~~~~
