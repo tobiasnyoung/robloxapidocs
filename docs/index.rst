@@ -8,5 +8,6 @@ Current documentation for Roblox API. Need any further assistance join our serve
    :maxdepth: 2
    
    Asset
+   Auth
    Group
    User
