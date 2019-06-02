@@ -10,4 +10,5 @@ Current documentation for Roblox API. Need any further assistance join our serve
    Asset
    Auth
    Group
+   Trade
    User
