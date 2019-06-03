@@ -159,6 +159,29 @@ Example
    rbx = robloxlib.client('Cookie')
    rbx.Group.groupSearch('keyword', 'maxrows')
 
+getAuditLogs
+==========
+
+Parameters
+~~~~~~~~~~~
+- Group ID
+
+Output
+~~~~~~
+-date
+-username
+-userId
+-groupRank
+-description
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxlib;
+   rbx = robloxlib.client('Cookie')
+   rbx.Group.getAuditLogs(id)
+   
 postShout
 ==========
 
