@@ -252,3 +252,39 @@ Example
    import robloxlib;
    rbx = robloxlib.client('Cookie')
    rbx.Group.setRank('groupid', 'roleid', 'userid')
+
+createGroup
+==========
+
+Parameters
+~~~~~~~~~~~
+- Group Name
+- Group Description
+- Image
+- Public?
+- Builders Club Only?
+
+Output
+~~~~~~
+- id (group id)
+- name (group name)
+- description (group description)
+- owner 
+   - id
+   - type
+- memberCount 
+- shout
+   - body
+   - poster
+      - id
+      - type
+   - created
+- created
+
+Example
+~~~~~~~~
+.. code-block:: python
+
+   import robloxapi
+   client = robloxapi.client()
+   client.Group.createGroup('groupname', 'groupdescription', 'image', True, False)
