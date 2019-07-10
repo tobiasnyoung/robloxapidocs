@@ -260,9 +260,9 @@ Parameters
 ~~~~~~~~~~~
 - Group Name
 - Group Description
-- Image path (group image path ./image.png)
-- Public (if the group is publc)
-- Buildersclubonly (if only buildersclub can join)
+- Image
+- Public?
+- Builders Club Only?
 
 Output
 ~~~~~~
@@ -272,7 +272,7 @@ Output
 - owner 
    - id
    - type
-- memberCound 
+- memberCount 
 - shout
    - body
    - poster
@@ -287,4 +287,4 @@ Example
 
    import robloxapi
    client = robloxapi.client()
-   client.Group.createGroup('Group Name', 'Group Description', 'Group Image path', True, False)
+   client.Group.createGroup('groupname', 'groupdescription', 'image', True, False)
