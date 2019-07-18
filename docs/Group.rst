@@ -21,8 +21,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.demote('groupid','id')
 
 getAuditLogs
@@ -44,8 +44,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.getAuditLogs(id)
    
 
@@ -76,8 +76,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib; 
-   rbx = robloxlib.client('Cookie')
+   import robloxapi; 
+   rbx = robloxapi.client('Cookie')
    rbx.Group.getGroup(id)
    
 getGroupRoles
@@ -137,8 +137,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.getWall(id)
 
 groupPayout
@@ -158,8 +158,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.groupPayout('groupid','id','amount')
    
 groupSearch
@@ -179,8 +179,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.groupSearch('keyword', 'maxrows')
 
 postShout
@@ -205,8 +205,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.postShout(id, 'blah blah blah')
 
 promote
@@ -228,8 +228,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.promote('groupid', 'userid')
    
 setRank
@@ -249,8 +249,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Group.setRank('groupid', 'roleid', 'userid')
 
 createGroup
