@@ -17,8 +17,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Asset.buyAsset(id)
 
 getAssetInfo
@@ -81,8 +81,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
    
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Asset.getOutfits()
 
 searchCatalog
@@ -138,6 +138,6 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Asset.wearOutfit(id)
