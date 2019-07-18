@@ -20,6 +20,6 @@ Example
 ~~~~~~~~
 .. code-block:: python
  
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Trade.acceptTrade(id)
