@@ -17,8 +17,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
 
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Auth.IsUsernameTaken(username)
 
 login
@@ -41,8 +41,8 @@ Example
 ~~~~~~~~
 .. code-block:: python
    
-   import robloxlib;
-   rbx = robloxlib.Auth.login('Cookie')
+   import robloxapi;
+   rbx = robloxapi.Auth.login('Cookie')
 
 RefreshToken
 =============
@@ -58,6 +58,6 @@ Output
 Example
 ~~~~~~~~
 .. code-block:: python
-   import robloxlib;
-   rbx = robloxlib.client('Cookie')
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
    rbx.Auth.RefreshToken()
