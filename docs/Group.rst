@@ -48,6 +48,24 @@ Example
    rbx = robloxapi.client('Cookie')
    rbx.Group.getAuditLogs(id)
    
+getFunds
+========
+
+Parameters
+~~~~~~~~~~
+- self
+- groupId
+
+Output
+~~~~~~~
+- robux
+
+Example
+~~~~~~~~
+.. code-block:: python
+   import robloxapi;
+   rbx = robloxapi.client('Cookie')
+   rbx.Group.getFunds(self, groupId)
 
 getGroup
 =========
