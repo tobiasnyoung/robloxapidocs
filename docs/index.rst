@@ -11,5 +11,5 @@ Current documentation for Roblox API. Need any further assistance join our serve
    Group
    Trade
    User
-   client
+   Client
    Settings
